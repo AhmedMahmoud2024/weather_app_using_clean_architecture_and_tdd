@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:weather_app_using_clean_architecture_tdd/presentation/pages/weather_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const WeatherPage());
 }
 
 class MyApp extends StatelessWidget {
